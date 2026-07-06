@@ -1,0 +1,124 @@
+/* ==========================================
+   NAVBAR
+========================================== */
+
+.navbar {
+
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+
+    background-color: var(--background-secondary);
+
+    border-bottom: 1px solid var(--border-colour);
+
+}
+
+/* ==========================================
+   CONTAINER
+========================================== */
+
+.navbar-container {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    width: 100%;
+
+    max-width: 1200px;
+
+    padding: 20px;
+
+}
+
+/* ==========================================
+   LOGO
+========================================== */
+
+.navbar-logo {
+
+    font-size: 1.4rem;
+
+    font-weight: bold;
+
+    color: var(--accent-primary);
+
+}
+
+/* ==========================================
+   NAVIGATION
+========================================== */
+
+.navbar-navigation {
+
+    display: flex;
+
+}
+
+.navbar-list {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 20px;
+
+}
+
+.navbar-item {
+
+    display: flex;
+
+}
+
+.navbar-item a {
+
+    transition: 0.3s;
+
+}
+
+.navbar-item a:hover {
+
+    color: var(--accent-primary);
+
+}
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media screen and (max-width: 767px) {
+
+    .navbar-container {
+
+        flex-direction: column;
+
+        gap: 20px;
+
+    }
+
+}
+
+/* ==========================================
+   TABLET
+========================================== */
+
+@media screen and (min-width:768px) {
+
+
+
+}
+
+/* ==========================================
+   DESKTOP
+========================================== */
+
+@media screen and (min-width:1024px) {
+
+
+
+}
