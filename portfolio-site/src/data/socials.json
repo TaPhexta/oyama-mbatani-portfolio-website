@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "platform": "GitHub",
+        "username": "taphexta",
+        "url": "https://github.com/TaPhexta",
+        "icon": "github"
+    },
+    {
+        "id": 2,
+        "platform": "LinkedIn",
+        "username": "Oyama Mbatani",
+        "url": "https://www.linkedin.com/in/oyama-mbatani/",
+        "icon": "linkedin"
+    },
+    {
+        "id": 3,
+        "platform": "Email",
+        "username": "oysmbatani@gmail.com",
+        "url": "mailto:oysmbatani@gmail.com",
+        "icon": "mail"
+    }
+]

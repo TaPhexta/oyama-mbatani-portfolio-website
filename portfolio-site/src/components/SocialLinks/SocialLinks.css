@@ -1,0 +1,59 @@
+/* ==========================================
+   SOCIAL LINKS
+========================================== */
+
+.social-links {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 20px;
+
+    flex-wrap: wrap;
+
+}
+
+.social-links a {
+
+    color: var(--text-primary);
+
+    transition: 0.3s;
+
+}
+
+.social-links a:hover {
+
+    color: var(--accent-primary);
+
+}
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media screen and (max-width:767px) {
+
+    .social-links {
+
+        gap: 15px;
+
+    }
+
+}
+
+/* ==========================================
+   TABLET
+========================================== */
+
+@media screen and (min-width:768px) {
+
+    .social-links {
+
+        gap: 20px;
+
+    }
+
+}

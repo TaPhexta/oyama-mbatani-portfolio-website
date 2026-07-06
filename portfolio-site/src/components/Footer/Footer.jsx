@@ -19,5 +19,5 @@ function Footer() {
     </footer>
   );
 }
-
+// Creates a footer component that can be used throughout the application.
 export default Footer;

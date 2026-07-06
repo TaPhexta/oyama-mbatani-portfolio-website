@@ -32,5 +32,7 @@ function Navbar() {
     </header>
   );
 }
-
+// Creates a navigation bar component that can be used throughout the application.
+// It uses the NavLink component from react-router-dom to create navigation links to different pages of the application. 
+// The navigation bar is styled using an external CSS file.
 export default Navbar;

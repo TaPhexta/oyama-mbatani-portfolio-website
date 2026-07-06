@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "name": "React",
+        "category": "Frontend",
+        "level": "Intermediate",
+        "yearsExperience": 1,
+        "icon": ""
+    },
+    {
+        "id": 2,
+        "name": "JavaScript",
+        "category": "Programming",
+        "level": "Intermediate",
+        "yearsExperience": 3,
+        "icon": ""
+    }
+]

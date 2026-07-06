@@ -1,0 +1,21 @@
+[
+    {
+        "id": 1,
+        "title": "Portfolio Website",
+        "slug": "portfolio-website",
+        "category": "Frontend",
+        "status": "Completed",
+        "completedDate": "2026-07",
+        "description": "",
+        "thumbnail": "",
+        "gallery": [""],
+        "technologies": [
+            "React",
+            "CSS",
+            "JavaScript"
+        ],
+        "githubUrl": "",
+        "liveUrl": "",
+        "featured": true
+    }
+]

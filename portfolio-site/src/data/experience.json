@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "company": "ABC Company",
+        "position": "Web Developer",
+        "employmentType": "Internship",
+        "location": "South Africa",
+        "startDate": "2025",
+        "endDate": "Present",
+        "description": "",
+        "technologies": [
+            "React",
+            "PHP"
+        ],
+        "companyLogo": ""
+    }
+]
