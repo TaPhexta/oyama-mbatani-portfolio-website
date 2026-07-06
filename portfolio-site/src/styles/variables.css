@@ -1,0 +1,44 @@
+/* ==========================================
+   COLOUR VARIABLES
+========================================== */
+
+:root {
+
+    /* Background Colours */
+
+    --background-primary: #111111;
+    --background-secondary: #1A1A1A;
+
+    /* Accent */
+
+    --accent-primary: #8B5CF6;
+    --accent-hover: #9F7AEA;
+
+    /* Text */
+
+    --text-primary: #FFFFFF;
+    --text-secondary: #B3B3B3;
+
+    /* Borders */
+
+    --border-colour: #2C2C2C;
+
+    /* Status */
+
+    --success: #22C55E;
+    --warning: #FACC15;
+    --danger: #EF4444;
+
+    /* Spacing */
+
+    --spacing-small: 10px;
+    --spacing-medium: 20px;
+    --spacing-large: 40px;
+
+    /* Border Radius */
+
+    --border-radius-small: 8px;
+    --border-radius-medium: 12px;
+    --border-radius-large: 20px;
+
+}
