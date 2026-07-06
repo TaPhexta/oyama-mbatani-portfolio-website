@@ -1,0 +1,37 @@
+.project-card{
+
+    display:flex;
+
+    flex-direction:column;
+
+    overflow:hidden;
+
+    background:var(--background-secondary);
+
+    border-radius:var(--border-radius-medium);
+
+    border:1px solid var(--border-colour);
+
+}
+
+.project-content{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:20px;
+
+    padding:20px;
+
+}
+
+.project-buttons{
+
+    display:flex;
+
+    gap:15px;
+
+    flex-wrap:wrap;
+
+}

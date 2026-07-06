@@ -1,0 +1,17 @@
+.skill-card{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:15px;
+
+    padding:20px;
+
+    border-radius:var(--border-radius-medium);
+
+    background:var(--background-secondary);
+
+    border:1px solid var(--border-colour);
+
+}

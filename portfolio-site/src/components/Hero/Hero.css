@@ -1,0 +1,117 @@
+/* ==========================================
+   HERO
+========================================== */
+
+.hero-section {
+
+    display: flex;
+
+    justify-content: center;
+
+    width: 100%;
+
+    padding: 80px 20px;
+
+}
+
+.hero-container {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    width: 100%;
+
+    max-width: 1200px;
+
+    gap: 50px;
+
+}
+
+.hero-content {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 20px;
+
+    flex: 1;
+
+}
+
+.hero-buttons {
+
+    display: flex;
+
+    gap: 15px;
+
+    flex-wrap: wrap;
+
+}
+
+.hero-image-container {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    flex: 1;
+
+}
+
+.hero-image {
+
+    width: 300px;
+
+    border-radius: 50%;
+
+    border: 3px solid var(--accent-primary);
+
+}
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media screen and (max-width:767px) {
+
+    .hero-container {
+
+        flex-direction: column-reverse;
+
+        text-align: center;
+
+    }
+
+    .hero-buttons {
+
+        justify-content: center;
+
+    }
+
+}
+
+/* ==========================================
+   TABLET
+========================================== */
+
+@media screen and (min-width:768px) {
+
+
+
+}
+
+/* ==========================================
+   DESKTOP
+========================================== */
+
+@media screen and (min-width:1024px) {
+
+
+
+}

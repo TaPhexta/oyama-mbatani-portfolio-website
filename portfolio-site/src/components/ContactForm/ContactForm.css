@@ -1,0 +1,26 @@
+.contact-form{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:20px;
+
+    width:100%;
+
+}
+
+.contact-form input,
+.contact-form textarea{
+
+    padding:15px;
+
+    border:1px solid var(--border-colour);
+
+    border-radius:var(--border-radius-small);
+
+    background:var(--background-secondary);
+
+    color:var(--text-primary);
+
+}
