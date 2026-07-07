@@ -2,7 +2,6 @@ import "./ExperienceCard.css";
 
 function ExperienceCard({ experience }) {
 
-  console.log(experience);
   return (
     <article id="experience-card" className="experience-card">
       <img
