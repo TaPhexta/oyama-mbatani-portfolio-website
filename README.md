@@ -16,6 +16,7 @@ The primary goal of this project is to showcase my web development projects, tec
 * Dark theme with purple accent colour
 * Reusable cards and UI components
 * Easily maintainable project structure
+* Vercel analytics
 
 ---
 
@@ -144,6 +145,7 @@ Components consume this data through mapping instead of hardcoding content, maki
 * JSON data structure
 * Component composition
 * Responsive layout foundation
+* Vercel Analytics
 
 ### In Progress
 
@@ -161,7 +163,6 @@ Components consume this data through mapping instead of hardcoding content, maki
 * Contact form integration
 * SEO improvements
 * Performance optimisation
-* Final deployment to Vercel
 
 ---
 
@@ -230,7 +231,6 @@ This project was built around the following principles:
 * Backend API integration
 * Unit testing
 * End-to-end testing
-* Analytics integration
 
 ---
 
