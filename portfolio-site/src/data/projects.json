@@ -3,19 +3,52 @@
         "id": 1,
         "title": "Portfolio Website",
         "slug": "portfolio-website",
-        "category": "Frontend",
+        "description": "A responsive portfolio website showcasing my projects, skills and experience.",
+        "thumbnail": "/images/projects/portfolio.jpg",
+        "featured": true,
+        "completedDate": "2026-07-01",
         "status": "Completed",
-        "completedDate": "2026-07",
-        "description": "",
-        "thumbnail": "",
-        "gallery": [""],
+        "githubUrl": "https://github.com/example/portfolio",
+        "liveUrl": "https://portfolio-demo.vercel.app",
         "technologies": [
             "React",
+            "Vite",
             "CSS",
-            "JavaScript"
-        ],
-        "githubUrl": "",
-        "liveUrl": "",
-        "featured": true
+            "React Router"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "CRM System",
+        "slug": "crm-system",
+        "description": "Customer Relationship Management platform for SMEs.",
+        "thumbnail": "/images/projects/crm.jpg",
+        "featured": true,
+        "completedDate": "2026-06-20",
+        "status": "Completed",
+        "githubUrl": "https://github.com/example/crm",
+        "liveUrl": "https://crm-demo.vercel.app",
+        "technologies": [
+            "React",
+            "PHP",
+            "MySQL"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Data Analytics Dashboard",
+        "slug": "analytics-dashboard",
+        "description": "Interactive dashboard visualising business KPIs.",
+        "thumbnail": "/images/projects/dashboard.jpg",
+        "featured": false,
+        "completedDate": "2026-05-15",
+        "status": "Completed",
+        "githubUrl": "https://github.com/example/dashboard",
+        "liveUrl": "https://dashboard-demo.vercel.app",
+        "technologies": [
+            "Power BI",
+            "SQL",
+            "Excel"
+        ]
     }
 ]

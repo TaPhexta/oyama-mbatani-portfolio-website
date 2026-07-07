@@ -1,59 +1,25 @@
-/* ==========================================
-   SOCIAL LINKS
-========================================== */
+.social-links{
 
-.social-links {
+    display:flex;
 
-    display: flex;
+    gap:20px;
 
-    justify-content: center;
-
-    align-items: center;
-
-    gap: 20px;
-
-    flex-wrap: wrap;
+    flex-wrap:wrap;
 
 }
 
-.social-links a {
+.social-link{
 
-    color: var(--text-primary);
+    color:var(--text-primary);
 
-    transition: 0.3s;
+    text-decoration:none;
 
-}
-
-.social-links a:hover {
-
-    color: var(--accent-primary);
+    transition:.3s;
 
 }
 
-/* ==========================================
-   MOBILE
-========================================== */
+.social-link:hover{
 
-@media screen and (max-width:767px) {
-
-    .social-links {
-
-        gap: 15px;
-
-    }
-
-}
-
-/* ==========================================
-   TABLET
-========================================== */
-
-@media screen and (min-width:768px) {
-
-    .social-links {
-
-        gap: 20px;
-
-    }
+    color:var(--accent-primary);
 
 }

@@ -2,22 +2,25 @@
     {
         "id": 1,
         "platform": "GitHub",
-        "username": "taphexta",
-        "url": "https://github.com/TaPhexta",
-        "icon": "github"
+        "username": "oyamambatani",
+        "url": "https://github.com/oyamambatani",
+        "icon": "FaGithub",
+        "displayOrder": 1
     },
     {
         "id": 2,
         "platform": "LinkedIn",
-        "username": "Oyama Mbatani",
-        "url": "https://www.linkedin.com/in/oyama-mbatani/",
-        "icon": "linkedin"
+        "username": "oyamambatani",
+        "url": "https://linkedin.com/in/oyamambatani",
+        "icon": "FaLinkedin",
+        "displayOrder": 2
     },
     {
         "id": 3,
         "platform": "Email",
-        "username": "oysmbatani@gmail.com",
-        "url": "mailto:oysmbatani@gmail.com",
-        "icon": "mail"
+        "username": "oyama@example.com",
+        "url": "mailto:oyama@example.com",
+        "icon": "MdEmail",
+        "displayOrder": 3
     }
 ]

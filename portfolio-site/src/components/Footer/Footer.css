@@ -1,109 +1,33 @@
-/* ==========================================
-   FOOTER
-========================================== */
+.footer{
 
-.footer {
+    display:flex;
 
-    display: flex;
+    justify-content:center;
 
-    justify-content: center;
+    width:100%;
 
-    width: 100%;
+    padding:20px;
 
-    background-color: var(--background-secondary);
-
-    border-top: 1px solid var(--border-colour);
+    border-top:1px solid var(--border-colour);
 
 }
 
-/* ==========================================
-   CONTAINER
-========================================== */
+.footer-container{
 
-.footer-container {
+    display:flex;
 
-    display: flex;
+    justify-content:center;
 
-    justify-content: space-between;
+    width:100%;
 
-    align-items: center;
-
-    width: 100%;
-
-    max-width: 1200px;
-
-    padding: 20px;
+    max-width:1200px;
 
 }
 
-/* ==========================================
-   FOOTER SECTIONS
-========================================== */
+.footer-text{
 
-.footer-left,
-.footer-center,
-.footer-right {
+    color:var(--text-secondary);
 
-    display: flex;
-
-    justify-content: center;
-
-    align-items: center;
-
-    flex: 1;
-
-}
-
-.footer-center {
-
-    text-align: center;
-
-}
-
-.footer-right {
-
-    justify-content: flex-end;
-
-}
-
-/* ==========================================
-   MOBILE
-========================================== */
-
-@media screen and (max-width:767px) {
-
-    .footer-container {
-
-        flex-direction: column;
-
-        gap: 15px;
-
-    }
-
-    .footer-right {
-
-        justify-content: center;
-
-    }
-
-}
-
-/* ==========================================
-   TABLET
-========================================== */
-
-@media screen and (min-width:768px) {
-
-
-
-}
-
-/* ==========================================
-   DESKTOP
-========================================== */
-
-@media screen and (min-width:1024px) {
-
-
+    font-size:.9rem;
 
 }

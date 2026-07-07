@@ -1,9 +1,10 @@
 {
     "siteName": "Oyama Mbatani",
+    "siteLogo": "OM",
     "siteTitle": "Portfolio",
     "defaultPageTitle": "Oyama Mbatani | Portfolio",
-    "defaultDescription": "",
-    "copyright": "© 2026 Oyama Mbatani",
+    "defaultDescription": "Web Developer & Data Analyst Portfolio",
+    "copyright": "© 2026 Oyama Mbatani. All rights reserved.",
     "theme": "dark",
-    "primaryColour": "#8B5CF6"
+    "primaryColour": "#7C3AED"
 }

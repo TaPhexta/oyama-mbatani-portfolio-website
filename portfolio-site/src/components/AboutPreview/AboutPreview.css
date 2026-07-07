@@ -1,0 +1,39 @@
+/* ==========================================
+   ABOUT PREVIEW
+========================================== */
+
+.about-preview{
+
+    display:flex;
+
+    justify-content:center;
+
+    width:100%;
+
+    padding:80px 20px;
+
+}
+
+.about-preview-container{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    max-width:900px;
+
+    gap:30px;
+
+}
+
+.about-preview-text{
+
+    text-align:center;
+
+    line-height:1.8;
+
+    color:var(--text-secondary);
+
+}

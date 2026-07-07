@@ -1,11 +1,30 @@
 [
     {
         "id": 1,
+        "name": "Google Data Analytics Professional Certificate",
+        "issuer": "Google",
+        "issueDate": "2025",
+        "credentialId": "ABC123456",
+        "credentialUrl": "https://www.coursera.org/",
+        "skillsCovered": [
+            "SQL",
+            "Data Cleaning",
+            "Data Visualization",
+            "Spreadsheets",
+            "Tableau"
+        ]
+    },
+    {
+        "id": 2,
         "name": "Responsive Web Design",
         "issuer": "freeCodeCamp",
-        "issueDate": "2025",
-        "credentialId": "",
-        "credentialUrl": "",
-        "skillsCovered": []
+        "issueDate": "2024",
+        "credentialId": "FCC987654",
+        "credentialUrl": "https://www.freecodecamp.org/",
+        "skillsCovered": [
+            "HTML",
+            "CSS",
+            "Responsive Design"
+        ]
     }
 ]

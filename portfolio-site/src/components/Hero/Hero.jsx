@@ -1,5 +1,7 @@
 import Button from "../Button/Button";
 import SocialLinks from "../SocialLinks/SocialLinks";
+import { NavLink } from "react-router-dom";
+import socials from "../../data/socials.json";
 
 import "./Hero.css";
 
@@ -8,26 +10,32 @@ function Hero({ personal }) {
     <section id="hero" className="hero-section">
       <div className="hero-container">
         <div className="hero-content">
-          <h1 className="hero-name">{personal?.fullName}</h1>
+          <p className="hero-greeting">Hello, I'm</p>
 
-          <h2 className="hero-title">{personal?.jobTitle}</h2>
+          <h1 className="hero-name">{personal.fullName}</h1>
 
-          <p className="hero-description">{personal?.heroDescription}</p>
+          <h2 className="hero-job-title">{personal.jobTitle}</h2>
 
-          <div className="hero-buttons">
-            <Button>View Projects</Button>
+          <p className="hero-description">{personal.heroDescription}</p>
 
-            <Button>Contact Me</Button>
+          <div className="hero-button-group">
+            <NavLink to="/projects">
+              <Button>View Projects</Button>
+            </NavLink>
+
+            <NavLink to="/contact">
+              <Button>Contact Me</Button>
+            </NavLink>
           </div>
 
-          <SocialLinks />
+          <SocialLinks socials={socials} />
         </div>
 
         <div className="hero-image-container">
           <img
             className="hero-image"
-            src={personal?.profileImage}
-            alt={personal?.fullName}
+            src={personal.profileImage}
+            alt={personal.fullName}
           />
         </div>
       </div>

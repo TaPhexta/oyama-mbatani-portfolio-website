@@ -1,28 +1,44 @@
-.project-card{
+.project-image{
 
-    display:flex;
+    width:100%;
 
-    flex-direction:column;
+    aspect-ratio:16/9;
 
-    overflow:hidden;
-
-    background:var(--background-secondary);
-
-    border-radius:var(--border-radius-medium);
-
-    border:1px solid var(--border-colour);
+    object-fit:cover;
 
 }
 
-.project-content{
+.project-title{
+
+    font-size:1.4rem;
+
+}
+
+.project-description{
+
+    line-height:1.7;
+
+}
+
+.project-technologies{
 
     display:flex;
 
-    flex-direction:column;
+    flex-wrap:wrap;
 
-    gap:20px;
+    gap:10px;
 
-    padding:20px;
+}
+
+.technology-badge{
+
+    padding:8px 14px;
+
+    background:var(--background-primary);
+
+    border-radius:50px;
+
+    font-size:.85rem;
 
 }
 

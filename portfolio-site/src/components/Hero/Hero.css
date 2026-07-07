@@ -74,6 +74,42 @@
 
 }
 
+.hero-greeting{
+
+    color:var(--text-secondary);
+
+}
+
+.hero-name{
+
+    font-size:3.5rem;
+
+}
+
+.hero-job-title{
+
+    color:var(--accent-primary);
+
+}
+
+.hero-description{
+
+    max-width:600px;
+
+    line-height:1.7;
+
+}
+
+.hero-button-group{
+
+    display:flex;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+}
+
 /* ==========================================
    MOBILE
 ========================================== */

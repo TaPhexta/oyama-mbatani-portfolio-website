@@ -1,38 +1,38 @@
 import { NavLink } from "react-router-dom";
+
+import navigation from "../../data/navigation.json";
+
+import site from "../../data/site.json"
+
 import "./Navbar.css";
 
 function Navbar() {
   return (
-    <header id="navbar" className="navbar">
-      <div className="navbar-container">
+    <header id="header" className="header">
+      <nav id="navbar" className="navbar">
         <div className="navbar-logo">
-          <NavLink to="/">Oyama Mbatani</NavLink>
+          <NavLink to="/" className="logo-link">
+            {site.siteLogo}
+          </NavLink>
         </div>
 
-        <nav id="navbar-navigation" className="navbar-navigation">
-          <ul className="navbar-list">
-            <li className="navbar-item">
-              <NavLink to="/">Home</NavLink>
+        <ul className="navbar-links">
+          {navigation.map((item) => (
+            <li key={item.id} className="navbar-item">
+              <NavLink
+                to={item.path}
+                className={({ isActive }) =>
+                  isActive ? "nav-link active" : "nav-link"
+                }
+              >
+                {item.name}
+              </NavLink>
             </li>
-
-            <li className="navbar-item">
-              <NavLink to="/about">About</NavLink>
-            </li>
-
-            <li className="navbar-item">
-              <NavLink to="/projects">Projects</NavLink>
-            </li>
-
-            <li className="navbar-item">
-              <NavLink to="/contact">Contact</NavLink>
-            </li>
-          </ul>
-        </nav>
-      </div>
+          ))}
+        </ul>
+      </nav>
     </header>
   );
 }
-// Creates a navigation bar component that can be used throughout the application.
-// It uses the NavLink component from react-router-dom to create navigation links to different pages of the application. 
-// The navigation bar is styled using an external CSS file.
+
 export default Navbar;

@@ -1,12 +1,15 @@
 {
     "fullName": "Oyama Mbatani",
-    "jobTitle": "Frontend Developer",
+    "firstName": "Oyama",
+    "lastName": "Mbatani",
+    "jobTitle": "Web Developer & Data Analyst",
+    "heroDescription": "I design and build responsive, user-focused web applications while transforming data into meaningful insights through analytics and visualization.",
+    "about": "I am a passionate Web Developer and Data Analyst based in South Africa. I enjoy creating modern web applications, solving real-world problems through technology, and continuously improving my skills. My interests include full-stack development, business intelligence, data analytics, UI/UX, and software architecture.",
+    "email": "oyama@example.com",
+    "phone": "+27 71 234 5678",
     "location": "Eastern Cape, South Africa",
-    "email": "oysmbatani@gmail.com",
-    "phone": "+27 81 260 2573",
-    "about": "",
-    "heroDescription": "",
-    "profileImage": "",
-    "resume": "",
-    "yearsExperience": 0
+    "website": "https://portfolio.com",
+    "profileImage": "/images/profile/profile.jpg",
+    "resume": "/documents/Oyama_Mbatani_CV.pdf",
+    "yearsExperience": 2
 }

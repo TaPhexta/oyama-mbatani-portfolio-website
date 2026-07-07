@@ -1,18 +1,50 @@
 [
     {
         "id": 1,
-        "name": "React",
         "category": "Frontend",
-        "level": "Intermediate",
-        "yearsExperience": 1,
-        "icon": ""
+        "name": "React",
+        "icon": "FaReact",
+        "level": "Advanced",
+        "yearsExperience": 2
     },
     {
         "id": 2,
+        "category": "Frontend",
         "name": "JavaScript",
-        "category": "Programming",
+        "icon": "FaJs",
+        "level": "Advanced",
+        "yearsExperience": 3
+    },
+    {
+        "id": 3,
+        "category": "Frontend",
+        "name": "HTML5",
+        "icon": "FaHtml5",
+        "level": "Advanced",
+        "yearsExperience": 4
+    },
+    {
+        "id": 4,
+        "category": "Frontend",
+        "name": "CSS3",
+        "icon": "FaCss3Alt",
+        "level": "Advanced",
+        "yearsExperience": 4
+    },
+    {
+        "id": 5,
+        "category": "Backend",
+        "name": "PHP",
+        "icon": "FaPhp",
         "level": "Intermediate",
-        "yearsExperience": 3,
-        "icon": ""
+        "yearsExperience": 2
+    },
+    {
+        "id": 6,
+        "category": "Database",
+        "name": "MySQL",
+        "icon": "FaDatabase",
+        "level": "Intermediate",
+        "yearsExperience": 2
     }
 ]

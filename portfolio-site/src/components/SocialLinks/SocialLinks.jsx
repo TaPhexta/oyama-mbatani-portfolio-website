@@ -1,11 +1,21 @@
 import "./SocialLinks.css";
 
-function SocialLinks({ children }) {
+function SocialLinks({ socials }) {
   return (
     <div id="social-links" className="social-links">
-      {children}
+      {socials.map((social) => (
+        <a
+          key={social.id}
+          href={social.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="social-link"
+        >
+          {social.platform}
+        </a>
+      ))}
     </div>
-  ); // Children props will be passed via mapping.
-} 
+  );
+}
 
 export default SocialLinks;

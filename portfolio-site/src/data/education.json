@@ -1,11 +1,22 @@
 [
     {
         "id": 1,
-        "institution": "ABC University",
-        "qualification": "BCom Information Systems",
+        "institution": "University of Fort Hare",
+        "qualification": "Bachelor of Commerce",
         "fieldOfStudy": "Information Systems",
-        "startYear": "2021",
-        "endYear": "2024",
-        "description": ""
+        "startDate": "2021",
+        "endDate": "2024",
+        "status": "Completed",
+        "achievements": [
+            "Majored in Information Systems",
+            "Economics",
+            "Commercial Law"
+        ],
+        "skillsCovered": [
+            "Systems Analysis",
+            "Programming",
+            "Database Design",
+            "Business Analysis"
+        ]
     }
 ]

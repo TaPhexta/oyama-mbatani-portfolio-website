@@ -1,0 +1,35 @@
+.featured-projects{
+
+    display:flex;
+
+    justify-content:center;
+
+    width:100%;
+
+    padding:80px 20px;
+
+}
+
+.featured-projects-container{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:40px;
+
+    width:100%;
+
+    max-width:1200px;
+
+}
+
+.featured-projects-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+    gap:30px;
+
+}
