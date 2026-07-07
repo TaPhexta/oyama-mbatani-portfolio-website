@@ -2,10 +2,10 @@
     {
         "id": 1,
         "category": "Frontend",
-        "name": "React",
+        "name": "React.JS",
         "icon": "FaReact",
-        "level": "Advanced",
-        "yearsExperience": 2
+        "level": "Intermediate",
+        "yearsExperience": 1
     },
     {
         "id": 2,
@@ -26,9 +26,9 @@
     {
         "id": 4,
         "category": "Frontend",
-        "name": "CSS3",
+        "name": "CSS",
         "icon": "FaCss3Alt",
-        "level": "Advanced",
+        "level": "Intermediate",
         "yearsExperience": 4
     },
     {
@@ -41,10 +41,50 @@
     },
     {
         "id": 6,
+        "category": "Backend",
+        "name": "Node.JS",
+        "icon": "FaJs",
+        "level": "Beginner",
+        "yearsExperience": 1
+    },
+    {
+        "id": 7,
+        "category": "Backend",
+        "name": "Python",
+        "icon": "FaPython",
+        "level": "Intermediate",
+        "yearsExperience": 1
+    },
+    {
+        "id": 8,
+        "category": "Backend",
+        "name": "C# .NET",
+        "icon": "SiCSharp",
+        "level": "Beginner",
+        "yearsExperience": 1
+    },
+    {
+        "id": 9,
         "category": "Database",
         "name": "MySQL",
         "icon": "FaDatabase",
         "level": "Intermediate",
+        "yearsExperience": 3
+    },
+    {
+        "id": 10,
+        "category": "Version Control",
+        "name": "Git",
+        "icon": "SiGit",
+        "level": "Intermediate",
         "yearsExperience": 2
+    },
+    {
+        "id": 11,
+        "category": "Data Analytics",
+        "name": "Tableau",
+        "icon": "SiTableau",
+        "level": "Advanced",
+        "yearsExperience": 3
     }
 ]

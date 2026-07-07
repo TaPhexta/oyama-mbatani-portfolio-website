@@ -1,22 +1,50 @@
 [
     {
         "id": 1,
-        "institution": "University of Fort Hare",
+        "institution": "Rhodes University",
         "qualification": "Bachelor of Commerce",
-        "fieldOfStudy": "Information Systems",
+        "fieldOfStudy": "Economics & Information Systems",
         "startDate": "2021",
         "endDate": "2024",
         "status": "Completed",
         "achievements": [
             "Majored in Information Systems",
-            "Economics",
-            "Commercial Law"
+            "Econometrics",
+            "Financial Markets and Public Finance Economics",
+            "Business Management and Accounting electives"
         ],
         "skillsCovered": [
-            "Systems Analysis",
-            "Programming",
+            "HTML, CSS, PHP, JavaScript, SQL",
+            "UI/UX",
+            "IT Project Management",
             "Database Design",
-            "Business Analysis"
+            "Big Data Analysis",
+            "Statistical analysis and hypothesis testing"
+        ]
+    },
+    {
+        "id": 2,
+        "institution": "Rhodes University",
+        "qualification": "Bachelor of Commerce Honours",
+        "fieldOfStudy": "Information Systems",
+        "startDate": "2025",
+        "endDate": "2025",
+        "status": "Completed",
+        "achievements": [
+            "Completed with distinction",
+            "Full Academic Colours",
+            "Data Analysis",
+            "Information Security",
+            "IT Business Consulting",
+            "User Experience (UX)",
+            "Digital Ethics"
+        ],
+        "skillsCovered": [
+            "Data Analysis",
+            "IT and Software Consultancy",
+            "In depth UX Frameworks",
+            "Threat Modelling",
+            "General Cybersecurity"
         ]
     }
 ]

@@ -1,54 +1,36 @@
 [
     {
         "id": 1,
-        "title": "Portfolio Website",
-        "slug": "portfolio-website",
-        "description": "A responsive portfolio website showcasing my projects, skills and experience.",
-        "thumbnail": "/images/projects/portfolio.jpg",
+        "title": "Impressions Front-End Demo",
+        "slug": "impressions-smartwear",
+        "description": "A responsive client-side only website created as a live demo proposal to a potential client. Potential client sells mens formal wear and is a tailor. ",
+        "thumbnail": "https://app.trickle.so/storage/public/images/usr_17547ac760000001/af718bdb-02f9-4962-9ed5-06f129355b33.jpeg",
         "featured": true,
-        "completedDate": "2026-07-01",
+        "completedDate": "Feb 2026",
         "status": "Completed",
-        "githubUrl": "https://github.com/example/portfolio",
-        "liveUrl": "https://portfolio-demo.vercel.app",
+        "githubUrl": "https://github.com/TaPhexta/impressions",
+        "liveUrl": "https://taphexta.github.io/impressions/",
         "technologies": [
-            "React",
-            "Vite",
-            "CSS",
-            "React Router"
+            "HTML",
+            "JavaScript",
+            "CSS"
         ]
     },
     {
         "id": 2,
-        "title": "CRM System",
-        "slug": "crm-system",
-        "description": "Customer Relationship Management platform for SMEs.",
+        "title": "Health Oasis Prime Care",
+        "slug": "health-oasis",
+        "description": "Paid frontend website for Health Oasis Prime Care, a new Ivy Drip Clinic operating in the Eastern Cape.",
         "thumbnail": "/images/projects/crm.jpg",
         "featured": true,
-        "completedDate": "2026-06-20",
+        "completedDate": "2025-11",
         "status": "Completed",
-        "githubUrl": "https://github.com/example/crm",
-        "liveUrl": "https://crm-demo.vercel.app",
+        "githubUrl": "https://github.com/TaPhexta/healthoasisprimecare",
+        "liveUrl": "http://www.healthoasisprimecare.co.za/",
         "technologies": [
-            "React",
-            "PHP",
-            "MySQL"
-        ]
-    },
-    {
-        "id": 3,
-        "title": "Data Analytics Dashboard",
-        "slug": "analytics-dashboard",
-        "description": "Interactive dashboard visualising business KPIs.",
-        "thumbnail": "/images/projects/dashboard.jpg",
-        "featured": false,
-        "completedDate": "2026-05-15",
-        "status": "Completed",
-        "githubUrl": "https://github.com/example/dashboard",
-        "liveUrl": "https://dashboard-demo.vercel.app",
-        "technologies": [
-            "Power BI",
-            "SQL",
-            "Excel"
+            "HTML",
+            "CSS",
+            "JavaScript"
         ]
     }
 ]

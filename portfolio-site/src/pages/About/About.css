@@ -1,0 +1,118 @@
+/* ==========================================
+   ABOUT PAGE
+========================================== */
+
+.about-page{
+
+    display:flex;
+
+    flex-direction:column;
+
+    width:100%;
+
+}
+
+.about-section,
+.education-section,
+.experience-section,
+.certifications-section,
+.skills-section{
+
+    display:flex;
+
+    justify-content:center;
+
+    width:100%;
+
+    padding:80px 20px;
+
+}
+
+.about-container,
+.education-container,
+.experience-container,
+.certifications-container,
+.skills-container{
+
+    display:flex;
+
+    flex-direction:column;
+
+    width:100%;
+
+    max-width:1200px;
+
+    gap:40px;
+
+}
+
+.about-text{
+
+    line-height:1.8;
+
+    color:var(--text-secondary);
+
+}
+
+.education-card,
+.certification-card{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:15px;
+
+    padding:25px;
+
+    border:1px solid var(--border-color);
+
+    border-radius:12px;
+
+}
+
+.skills-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+    gap:25px;
+
+}
+
+/* ===========================
+   Tablet
+=========================== */
+
+@media (max-width:992px){
+
+    .about-section,
+    .education-section,
+    .experience-section,
+    .certifications-section,
+    .skills-section{
+
+        padding:60px 20px;
+
+    }
+
+}
+
+/* ===========================
+   Mobile
+=========================== */
+
+@media (max-width:768px){
+
+    .about-section,
+    .education-section,
+    .experience-section,
+    .certifications-section,
+    .skills-section{
+
+        padding:50px 20px;
+
+    }
+
+}

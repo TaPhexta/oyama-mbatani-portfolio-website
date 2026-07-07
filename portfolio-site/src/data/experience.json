@@ -1,74 +1,24 @@
 [
     {
         "id": 1,
-        "company": "ABC Company",
-        "position": "Web Developer Intern",
-        "employmentType": "Internship",
-        "location": "East London, South Africa",
-        "startDate": "2025",
+        "company": "Freelance",
+        "position": "Freelance Web Developer",
+        "employmentType": "Self-employed",
+        "location": "King Williams Town, South Africa",
+        "startDate": "Nov 2025",
         "endDate": "Present",
-        "description": "Assisted in developing and maintaining web applications while gaining practical experience in modern web technologies.",
+        "description": "Designing, implementing and deploying marketable websites for locsl SMEs. Websites are responsive, modern, custom and contain basic to mid-level SEO.",
         "technologies": [
             "HTML",
             "CSS",
             "JavaScript",
             "React",
-            "PHP",
-            "MySQL"
+            "Node.JS",
+            "Supabase"
         ],
         "achievements": [
-            "Developed responsive user interfaces for internal business applications.",
-            "Improved page load times by optimizing images and frontend assets.",
-            "Collaborated with senior developers using Git and GitHub workflows.",
-            "Participated in testing and debugging production issues."
+            "Assisted Health Oasis Primecare with their online presence as of Dec 2025 upon inception of their business."
         ],
         "companyLogo": "/images/experience/abc-company-logo.png"
-    },
-    {
-        "id": 2,
-        "company": "XYZ Digital Solutions",
-        "position": "Freelance Web Developer",
-        "employmentType": "Freelance",
-        "location": "Remote",
-        "startDate": "2024",
-        "endDate": "2025",
-        "description": "Delivered websites and web solutions for small businesses and entrepreneurs.",
-        "technologies": [
-            "HTML",
-            "CSS",
-            "JavaScript",
-            "PHP",
-            "Bootstrap"
-        ],
-        "achievements": [
-            "Built and deployed five client websites.",
-            "Integrated contact forms and content management functionality.",
-            "Provided ongoing website maintenance and support.",
-            "Improved client website responsiveness across mobile devices."
-        ],
-        "companyLogo": "/images/experience/xyz-digital-logo.png"
-    },
-    {
-        "id": 3,
-        "company": "University Project Team",
-        "position": "Student Developer",
-        "employmentType": "Project",
-        "location": "South Africa",
-        "startDate": "2023",
-        "endDate": "2024",
-        "description": "Worked on academic software development and data analytics projects.",
-        "technologies": [
-            "Python",
-            "SQL",
-            "Tableau",
-            "Excel"
-        ],
-        "achievements": [
-            "Designed interactive dashboards for business intelligence reporting.",
-            "Performed data cleaning and transformation on large datasets.",
-            "Presented analytical findings to academic stakeholders.",
-            "Collaborated with team members using Agile methodologies."
-        ],
-        "companyLogo": "/images/experience/university-project-logo.png"
     }
 ]
