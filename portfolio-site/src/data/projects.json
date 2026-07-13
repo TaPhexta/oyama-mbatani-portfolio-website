@@ -21,7 +21,7 @@
         "title": "Health Oasis Prime Care",
         "slug": "health-oasis",
         "description": "Paid frontend website for Health Oasis Prime Care, a new Ivy Drip Clinic operating in the Eastern Cape.",
-        "thumbnail": "portfolio-site/public/images/projects/health-oasis.jpeg",
+        "thumbnail": "/images/projects/health-oasis.jpeg",
         "featured": true,
         "completedDate": "Nov 2025",
         "status": "Completed",
