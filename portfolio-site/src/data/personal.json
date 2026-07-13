@@ -9,7 +9,7 @@
     "phone": "+27 81 260 2573",
     "location": "Eastern Cape, South Africa",
     "website": "https://oyama-mbatani-portfolio.vercel.app/",
-    "profileImage": "portfolio-site/src/assets/images/profile/oyama-mbatani.jpg",
+    "profileImage": "/images/profile/oyama-mbatani.jpg",
     "resume": "/documents/Oyama_Mbatani_CV_ver_05_2026.pdf",
     "yearsExperience": 2
 }
