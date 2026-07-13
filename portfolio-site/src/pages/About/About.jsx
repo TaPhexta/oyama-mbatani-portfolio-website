@@ -3,10 +3,10 @@ import SectionTitle from "../../components/SectionTitle/SectionTitle";
 import ExperienceCard from "../../components/ExperienceCard/ExperienceCard";
 import SkillCard from "../../components/SkillCard/SkillCard";
 
-import personal from "../../data/personal.json";
-import experience from "../../data/experience.json";
-import education from "../../data/education.json";
 import certifications from "../../data/certifications.json";
+import education from "../../data/education.json";
+import experience from "../../data/experience.json";
+import personal from "../../data/personal.json";
 import skills from "../../data/skills.json";
 
 import "./About.css";

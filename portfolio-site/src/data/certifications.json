@@ -1,30 +1,99 @@
 [
     {
         "id": 1,
-        "name": "Google Data Analytics Professional Certificate",
-        "issuer": "Google",
-        "issueDate": "2025",
-        "credentialId": "ABC123456",
-        "credentialUrl": "https://www.coursera.org/",
+        "name": "Introduction to SQL",
+        "issuer": "DataCamp",
+        "issueDate": "Dec 02, 2024",
+        "credentialId": "",
+        "credentialUrl": "https://www.datacamp.com/",
         "skillsCovered": [
-            "SQL",
-            "Data Cleaning",
-            "Data Visualization",
-            "Spreadsheets",
-            "Tableau"
+            "SQL Basics",
+            "Relational Databases",
+            "Querying"
         ]
     },
     {
         "id": 2,
-        "name": "Responsive Web Design",
-        "issuer": "freeCodeCamp",
-        "issueDate": "2024",
-        "credentialId": "FCC987654",
-        "credentialUrl": "https://www.freecodecamp.org/",
+        "name": "Intermediate SQL",
+        "issuer": "DataCamp",
+        "issueDate": "Jan 31, 2025",
+        "credentialId": "",
+        "credentialUrl": "https://www.datacamp.com/",
         "skillsCovered": [
-            "HTML",
-            "CSS",
-            "Responsive Design"
+            "Selecting Data",
+            "Filtering Records",
+            "Aggregate Functions",
+            "Sorting and Grouping"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Joining Data in SQL",
+        "issuer": "freeCodeCamp",
+        "issueDate": "Mar 30, 2025",
+        "credentialId": "",
+        "credentialUrl": "https://www.datacamp.com/",
+        "skillsCovered": [
+            "Inner and Outer Joins",
+            "Set Theory Operations",
+            "Join Clauses (Operations)",
+            "Subqueries"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Data Science for Business",
+        "issuer": "DataCamp",
+        "issueDate": "Oct 19,2024",
+        "credentialId": "",
+        "credentialUrl": "https://www.datacamp.com/",
+        "skillsCovered": [
+            "Intro to Data Science",
+            "Data Collection and Storage",
+            "Analysis and Visualization",
+            "Prediction"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Introduction to Tableau",
+        "issuer": "DataCamp",
+        "issueDate": "Aug 07, 2023",
+        "credentialId": "",
+        "credentialUrl": "https://www.datacamp.com/",
+        "skillsCovered": [
+            "Tableau Fundamentals",
+            "Building and Customizing Visualizations",
+            "Visual Storytelling"
+        ]
+    },
+
+    {
+        "id": 6,
+        "name": "Data Visualization in Tableau",
+        "issuer": "DataCamp",
+        "issueDate": "May 14, 2025",
+        "credentialId": "",
+        "credentialUrl": "https://www.datacamp.com/",
+        "skillsCovered": [
+            "Data Visualization Best Practices",
+            "Maps and Spatial Visualizations",
+            "Dashboards"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Analyzing Data in Tableau",
+        "issuer": "DataCamp",
+        "issueDate": "May 14, 2025",
+        "credentialId": "",
+        "credentialUrl": "https://www.datacamp.com/",
+        "skillsCovered": [
+            "Calculated Fields",
+            "Mapping Analysis",
+            "Groups",
+            "Sets",
+            "Parameters"
         ]
     }
 ]

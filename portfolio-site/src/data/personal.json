@@ -3,13 +3,18 @@
     "firstName": "Oyama",
     "lastName": "Mbatani",
     "jobTitle": "Web Developer & Data Analyst",
-    "heroDescription": "I design and build responsive, user-focused web applications while transforming data into meaningful insights through analytics and visualization.",
-    "about": "I am a passionate Web Developer and Data Analyst based in South Africa. I enjoy creating modern web applications, solving real-world problems through technology, and continuously improving my skills. My interests include full-stack development, business intelligence, data analytics, UI/UX, and system architecture.",
+    "heroDescription": "Front-End Developer crafting responsive, accessible, and user-focused web applications with React, JavaScript, and modern web technologies. Passionate about building clean user experiences while continuously expanding my expertise in backend development, cloud technologies, and software engineering.",
+    "about": [
+        "I'm a developer from South Africa with a background in Information Systems and Economics. I enjoy turning ideas into intuitive, responsive, and maintainable web applications that solve real-world problems.",
+        "My primary focus is front-end development using React, JavaScript, HTML, CSS, and Tailwind CSS, where I prioritize performance, accessibility, and clean component architecture. Alongside front-end development, I'm actively strengthening my backend skills with technologies such as Node.js, Python, C#, SQL, and REST APIs to become a well-rounded full-stack developer.",
+        "I enjoy learning by building practical projects, whether it's dashboards, portfolio websites, productivity tools, or business applications. Every project is an opportunity to improve my problem-solving skills, write cleaner code, and create software that delivers real value.",
+        "I'm currently seeking opportunities where I can contribute, collaborate with experienced developers, and continue growing as a software engineer while building products that make a meaningful impact."
+    ],
     "email": "oysmbatani@gmail.com",
     "phone": "+27 81 260 2573",
     "location": "Eastern Cape, South Africa",
     "website": "https://oyama-mbatani-portfolio.vercel.app/",
-    "profileImage": "/images/profile/oyama-mbatani.jpg",
+    "profileImage": "portfolio-site/public/images/profile/oyama-mbatani.jpg",
     "resume": "/documents/Oyama_Mbatani_CV_ver_05_2026.pdf",
     "yearsExperience": 2
 }
