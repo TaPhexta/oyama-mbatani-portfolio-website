@@ -1,9 +1,9 @@
 import "./SectionTitle.css";
 
-function SectionTitle({ title }) {
+function SectionTitle({ children }) {
   return (
     <div id="section-title" className="section-title-container">
-      <h2 className="section-title">{title}</h2>
+      <h2 className="section-title">{children}</h2>
     </div>
   );
 }

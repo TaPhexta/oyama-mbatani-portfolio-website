@@ -14,13 +14,13 @@ function Home() {
     <main id="home-page" className="home-page">
       <Hero personal={personal} />
 
-      <AboutPreview />      
+      <AboutPreview />
+
+      <FeaturedProjects />
 
       <SkillsSection />
 
       <ExperiencePreview />
-      
-      <FeaturedProjects />
 
       <ContactCTA />
     </main>

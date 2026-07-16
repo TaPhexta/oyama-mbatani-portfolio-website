@@ -1,25 +1,57 @@
-.social-links{
+/* ==========================================
+   SOCIAL LINKS
+========================================== */
 
-    display:flex;
+.social-links {
+  display: flex;
 
-    gap:20px;
+  flex-wrap: wrap;
 
-    flex-wrap:wrap;
+  align-items: center;
 
+  gap: 16px;
 }
 
-.social-link{
+.social-link {
+  display: inline-flex;
 
-    color:var(--text-primary);
+  align-items: center;
 
-    text-decoration:none;
+  justify-content: center;
 
-    transition:.3s;
+  padding: 10px 18px;
 
+  border: 1px solid var(--border-color);
+
+  border-radius: 50px;
+
+  background-color: var(--background-secondary);
+
+  color: var(--text-primary);
+
+  font-size: 0.95rem;
+
+  font-weight: 500;
+
+  transition: all 0.3s ease;
 }
 
-.social-link:hover{
+.social-link:hover {
+  background-color: var(--accent-primary);
 
-    color:var(--accent-primary);
+  border-color: var(--accent-primary);
 
+  color: var(--background-primary);
+
+  transform: translateY(-2px);
+}
+
+/* ==========================================
+   TABLET
+========================================== */
+
+@media screen and (min-width: 768px) {
+  .social-links {
+    gap: 20px;
+  }
 }
