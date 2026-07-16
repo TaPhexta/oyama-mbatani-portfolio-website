@@ -20,7 +20,11 @@ function About() {
         <div className="about-container">
           <SectionTitle>About Me</SectionTitle>
 
-          <p className="about-text">{personal.about}</p>
+          {personal.about.map((paragraph, index) => (
+            <p key={index} className="about-text">
+              {paragraph}
+            </p>
+          ))}
         </div>
       </section>
 

@@ -2,117 +2,193 @@
    ABOUT PAGE
 ========================================== */
 
-.about-page{
+.about-page {
+  display: flex;
 
-    display:flex;
+  flex-direction: column;
 
-    flex-direction:column;
-
-    width:100%;
-
+  width: 100%;
 }
+
+/* ==========================================
+   SECTIONS
+========================================== */
 
 .about-section,
 .education-section,
 .experience-section,
 .certifications-section,
-.skills-section{
+.skills-section {
+  display: flex;
 
-    display:flex;
+  justify-content: center;
 
-    justify-content:center;
+  width: 100%;
 
-    width:100%;
-
-    padding:80px 20px;
-
+  padding: 80px 20px;
 }
 
 .about-container,
 .education-container,
 .experience-container,
 .certifications-container,
-.skills-container{
+.skills-container {
+  display: flex;
 
-    display:flex;
+  flex-direction: column;
 
-    flex-direction:column;
+  width: 100%;
 
-    width:100%;
+  max-width: 1200px;
 
-    max-width:1200px;
-
-    gap:40px;
-
+  gap: 40px;
 }
 
-.about-text{
+/* ==========================================
+   ABOUT
+========================================== */
 
-    line-height:1.8;
+.about-text {
+  max-width: 850px;
 
-    color:var(--text-secondary);
+  color: var(--text-secondary);
 
+  line-height: 1.9;
+
+  font-size: 1.05rem;
 }
+
+/* ==========================================
+   EDUCATION & CERTIFICATIONS
+========================================== */
 
 .education-card,
-.certification-card{
+.certification-card {
+  display: flex;
 
-    display:flex;
+  flex-direction: column;
 
-    flex-direction:column;
+  gap: 16px;
 
-    gap:15px;
+  padding: 28px;
 
-    padding:25px;
+  border: 1px solid var(--border-color);
 
-    border:1px solid var(--border-color);
+  border-radius: 12px;
 
-    border-radius:12px;
-
+  background-color: var(--background-secondary);
 }
 
-.skills-grid{
+.education-card h3,
+.certification-card h3 {
+  color: var(--text-primary);
 
-    display:grid;
-
-    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-
-    gap:25px;
-
+  font-size: 1.35rem;
 }
 
-/* ===========================
-   Tablet
-=========================== */
+.education-card h4,
+.certification-card h4 {
+  color: var(--accent-primary);
 
-@media (max-width:992px){
+  font-size: 1rem;
 
-    .about-section,
-    .education-section,
-    .experience-section,
-    .certifications-section,
-    .skills-section{
-
-        padding:60px 20px;
-
-    }
-
+  font-weight: 600;
 }
 
-/* ===========================
-   Mobile
-=========================== */
+.education-card p,
+.certification-card p {
+  color: var(--text-secondary);
 
-@media (max-width:768px){
+  line-height: 1.7;
+}
 
-    .about-section,
-    .education-section,
-    .experience-section,
-    .certifications-section,
-    .skills-section{
+.education-card h5 {
+  margin-top: 10px;
 
-        padding:50px 20px;
+  color: var(--text-primary);
 
-    }
+  font-size: 1rem;
+}
 
+.education-card ul,
+.certification-card ul {
+  display: flex;
+
+  flex-wrap: wrap;
+
+  gap: 12px;
+}
+
+.education-card li,
+.certification-card li {
+  padding: 8px 14px;
+
+  border: 1px solid var(--border-color);
+
+  border-radius: 50px;
+
+  background-color: var(--background-primary);
+
+  font-size: 0.85rem;
+}
+
+/* ==========================================
+   SKILLS
+========================================== */
+
+.skills-grid {
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+
+  gap: 24px;
+}
+
+/* ==========================================
+   TABLET
+========================================== */
+
+@media screen and (max-width: 992px) {
+  .about-section,
+  .education-section,
+  .experience-section,
+  .certifications-section,
+  .skills-section {
+    padding: 70px 20px;
+  }
+}
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media screen and (max-width: 768px) {
+  .about-section,
+  .education-section,
+  .experience-section,
+  .certifications-section,
+  .skills-section {
+    padding: 60px 20px;
+  }
+
+  .about-container,
+  .education-container,
+  .experience-container,
+  .certifications-container,
+  .skills-container {
+    gap: 32px;
+  }
+
+  .about-text {
+    font-size: 1rem;
+  }
+
+  .education-card,
+  .certification-card {
+    padding: 22px;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
 }
