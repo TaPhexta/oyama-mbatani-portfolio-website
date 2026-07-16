@@ -20,5 +20,22 @@
             "Assisted Health Oasis Primecare with their online presence as of Dec 2025 upon inception of their business."
         ],
         "companyLogo": "/images/profile/oyama-mbatani.jpeg"
+    },
+    {
+        "id": 2,
+        "company": "Eastern Cape Developmental Corporation",
+        "position": "Enterprise and Business Support Intern",
+        "employmentType": "Fixed Contract",
+        "location": "East London, South Africa",
+        "startDate": "July 2026",
+        "endDate": "Present",
+        "description": "Pending...",
+        "technologies": [
+            "Supabase"
+        ],
+        "achievements": [
+            "Pending..."
+        ],
+        "companyLogo": "/images/companies/ecdc.jpeg"
     }
 ]
