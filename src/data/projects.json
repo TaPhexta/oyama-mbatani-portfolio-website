@@ -32,5 +32,22 @@
             "JavaScript",
             "CSS"
         ]
+    },
+    {
+        "id": 3,
+        "title": "Dale College Demo Site",
+        "slug": "dale-demo",
+        "description": "Demo front end website for Dale, using react. Project was initially vibe coded using vanilla javascript early 2026 then was redone into a react project with mapped json data.",
+        "thumbnail": "/images/projects/health-oasis.jpeg",
+        "featured": true,
+        "completedDate": "July 2026",
+        "status": "incomplete",
+        "githubUrl": "https://github.com/TaPhexta/school-site-dale",
+        "liveUrl": "https://taphexta.github.io/school-site-dale/",
+        "technologies": [
+            "React",
+            "JavaScript",
+            "CSS"
+        ]
     }
 ]
