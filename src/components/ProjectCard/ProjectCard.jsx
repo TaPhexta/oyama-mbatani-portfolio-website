@@ -25,23 +25,13 @@ function ProjectCard({ project }) {
         </div>
 
         <div className="project-buttons">
-          <Button
-            as="a"
-            href={project.liveUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Live Demo
-          </Button>
+          <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
+            <Button>Live Demo</Button>
+          </a>
 
-          <Button
-            as="a"
-            href={project.githubUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            GitHub
-          </Button>
+          <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+            <Button>GitHub</Button>
+          </a>
         </div>
       </div>
     </article>
