@@ -38,7 +38,7 @@
         "title": "Dale College Demo Site",
         "slug": "dale-demo",
         "description": "Demo front end website for Dale, using react. Project was initially vibe coded using vanilla javascript early 2026 then was redone into a react project with mapped json data.",
-        "thumbnail": "/images/projects/health-oasis.jpeg",
+        "thumbnail": "/images/projects/dale-college.png",
         "featured": true,
         "completedDate": "July 2026",
         "status": "incomplete",
