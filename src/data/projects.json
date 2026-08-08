@@ -39,11 +39,28 @@
         "slug": "dale-demo",
         "description": "Demo front end website for Dale, using react. Project was initially vibe coded using vanilla javascript early 2026 then was redone into a react project with mapped json data.",
         "thumbnail": "/images/projects/dale-college.png",
-        "featured": true,
+        "featured": false,
         "completedDate": "July 2026",
         "status": "incomplete",
         "githubUrl": "https://github.com/TaPhexta/school-site-dale",
         "liveUrl": "https://taphexta.github.io/school-site-dale/",
+        "technologies": [
+            "React",
+            "JavaScript",
+            "CSS"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Projectify",
+        "slug": "projectify",
+        "description": "A project management, desktop-first application that is simple enough for novice users to keep up to date with their tiresome workloads and the trouble of fortgetfulness, whilst still having potential to scale to organisational level. This project has the potential to become a convenient daily tool for the average student, worker in any industry, manager needing to delegate work and keep up with their own deliverables, and even a home body who seems to find themself never getting anything done.",
+        "thumbnail": "/images/projects/projecctify.png",
+        "featured": true,
+        "completedDate": "August 2026",
+        "status": "incomplete",
+        "githubUrl": "https://github.com/TaPhexta/projectify-project-management",
+        "liveUrl": "https://projectify-eta.vercel.app/",
         "technologies": [
             "React",
             "JavaScript",
